@@ -1,0 +1,117 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --cream: #f6f2eb;
+  --lavender: #e9d9f2;
+  --sage: #dce8c8;
+  --ink: #3b3b3b;
+  --accent: #a16bb5;
+}
+
+body {
+  font-family: 'Onest', sans-serif;
+  background-color: var(--cream);
+  color: var(--ink);
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  padding: 4rem 1rem 2rem;
+}
+
+#titulo-principal {
+  font-family: 'Raleway', serif;
+  font-size: 3rem;
+}
+
+section {
+  max-width: 900px;
+  margin: 4rem auto;
+  padding: 4rem 2rem;
+  border-radius: 2rem;
+}
+
+.biografia {
+  background-color: white;
+}
+
+.biografia h2 {
+  font-family: 'Raleway', serif;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.biografia p {
+  max-width: 65ch;
+  margin-bottom: 1rem;
+}
+
+.foto {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.foto img {
+  border-radius: 1.5rem;
+}
+
+.Hobbies {
+  background-color: var(--sage);
+}
+
+.Hobbies h2 {
+  font-family: 'Raleway', serif;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.Hobbies ul {
+  list-style: none;
+  max-width: 500px;
+}
+
+.Hobbies li {
+  margin-bottom: 0.75rem;
+  padding-left: 1rem;
+}
+
+.musicafav {
+  background-color: var(--lavender);
+  text-align: center;
+}
+
+.musicafav h2 {
+  font-family: 'Raleway', serif;
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+}
+
+.musicafav ol {
+  list-style-position: inside;
+}
+
+.musicafav li {
+  margin-bottom: 0.75rem;
+}
+
+.musicafav a {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.musicafav a:hover {
+  color: var(--accent);
+}
+
+footer {
+  text-align: center;
+  padding: 3rem 1rem;
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
