@@ -1,0 +1,11 @@
+nav{
+    background-color: pink;
+}
+
+.tarjeta-productos{
+    background-color: #6f42c1;
+    color: white;
+    border: 2px solid white;
+    padding: 40px;
+    text-align: center;
+}
